@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Red+Hat+Display:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logotipo{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    width: 230px;
+    height: 150px;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.conteudo_principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 150px;
+    font-family:'DM Serif Display', serif;
+    font-size: 25px;
+}
+
+.imagem_principal{
+    width: 600px;
+    height: 250px;
+}
+
+.conteudo_secundario{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    gap: 48px;
+    padding: 30px;
+}
+
+.conteudo_secundario img{
+    max-width:250px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+}
+
+.titulo_secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    font-family:'Red Hat Display', sans-serif;
+    font-size: 40px; 
+    font-weight: bold;
+}
+
+.conteudo_secundario_bolos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px; 
+    margin-top: 40px;
+    font-family:'Red Hat Display', sans-serif;
+    font-size: 25px; 
+}
+
+.conteudo_secundario_bolos h3{
+    font-size: 20px;
+}
+
+.produtos_itens h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.produtos_itens{
+    text-align: center;
+    padding: 10px;
+}
+
+.produto-descricao{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.produto-preco{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.conteudo_secundario_doces{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px; 
+    margin-top: 40px;
+    font-family:'Red Hat Display', sans-serif;
+    font-size: 25px; 
+}
+
+.conteudo_secundario_bebidas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px; 
+    margin-top: 40px;
+    font-family:'Red Hat Display', sans-serif;
+    font-size: 25px; 
+}
+
+.rodape{
+   padding: 32px;
+   text-align: center;
+   font-family:'Red Hat Display', sans-serif;
+   font-size: 12px; 
+}
